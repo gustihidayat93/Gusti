@@ -14,6 +14,8 @@
 		5B71F57221DF61BC006D20EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B71F57021DF61BC006D20EF /* LaunchScreen.storyboard */; };
 		5B71F57F21DF6294006D20EF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B71F57D21DF6294006D20EF /* LoginViewController.swift */; };
 		5B71F58021DF6294006D20EF /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B71F57E21DF6294006D20EF /* LoginViewController.xib */; };
+		5B71F58421DF645A006D20EF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B71F58221DF645A006D20EF /* RegisterViewController.swift */; };
+		5B71F58521DF645A006D20EF /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B71F58321DF645A006D20EF /* RegisterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		5B71F57321DF61BC006D20EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B71F57D21DF6294006D20EF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5B71F57E21DF6294006D20EF /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		5B71F58221DF645A006D20EF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5B71F58321DF645A006D20EF /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 		5B71F57A21DF61D0006D20EF /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				5B71F58621DF6463006D20EF /* Main */,
 				5B71F57B21DF61DF006D20EF /* Auth */,
 			);
 			path = Module;
@@ -88,6 +93,7 @@
 		5B71F57B21DF61DF006D20EF /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				5B71F58121DF643A006D20EF /* Register */,
 				5B71F57C21DF625E006D20EF /* Login */,
 			);
 			path = Auth;
@@ -100,6 +106,22 @@
 				5B71F57E21DF6294006D20EF /* LoginViewController.xib */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		5B71F58121DF643A006D20EF /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				5B71F58221DF645A006D20EF /* RegisterViewController.swift */,
+				5B71F58321DF645A006D20EF /* RegisterViewController.xib */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		5B71F58621DF6463006D20EF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B71F58021DF6294006D20EF /* LoginViewController.xib in Resources */,
+				5B71F58521DF645A006D20EF /* RegisterViewController.xib in Resources */,
 				5B71F57221DF61BC006D20EF /* LaunchScreen.storyboard in Resources */,
 				5B71F56F21DF61BC006D20EF /* Assets.xcassets in Resources */,
 				5B71F56D21DF61BB006D20EF /* Main.storyboard in Resources */,
@@ -177,6 +200,7 @@
 				5B71F57F21DF6294006D20EF /* LoginViewController.swift in Sources */,
 				5B71F56A21DF61BB006D20EF /* ViewController.swift in Sources */,
 				5B71F56821DF61BB006D20EF /* AppDelegate.swift in Sources */,
+				5B71F58421DF645A006D20EF /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
