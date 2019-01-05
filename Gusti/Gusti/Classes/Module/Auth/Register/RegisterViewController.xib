@@ -12,6 +12,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegisterViewController" customModule="Gusti" customModuleProvider="target">
             <connections>
+                <outlet property="confrimPasswordField" destination="oaz-kA-85p" id="HBb-D3-n3K"/>
+                <outlet property="emailRegisterField" destination="HPK-YE-66v" id="dIq-jr-je0"/>
+                <outlet property="haveaccountLabel1" destination="G5C-uD-XfW" id="b3i-IX-lVb"/>
+                <outlet property="passwordregisterField" destination="7Kt-t2-uaB" id="C4d-mU-MRC"/>
+                <outlet property="registerButton" destination="bPm-tz-EJU" id="TC3-Mz-xWg"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

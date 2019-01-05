@@ -12,6 +12,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="Gusti" customModuleProvider="target">
             <connections>
+                <outlet property="createaccountButton" destination="8fl-pN-K3c" id="AYV-zF-X6f"/>
+                <outlet property="emailTextField" destination="5a2-wN-LjT" id="cVe-N5-WRN"/>
+                <outlet property="forgotPasswordButton" destination="ZJp-jP-WpT" id="7fV-aF-HQD"/>
+                <outlet property="passwordTextField" destination="AOx-Yu-n0f" id="Di9-63-s8e"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -110,6 +114,9 @@
                                                     <state key="normal" title="Login">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
+                                                    <connections>
+                                                        <action selector="loginButton:" destination="-1" eventType="touchUpInside" id="aMA-hh-ZWa"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </stackView>
