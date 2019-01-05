@@ -76,6 +76,8 @@
 		5B71F57921DF61C6006D20EF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5B71F58B21DF6797006D20EF /* Extensions */,
+				5B71F58821DF6746006D20EF /* View */,
 				5B71F57A21DF61D0006D20EF /* Module */,
 			);
 			path = Classes;
@@ -84,6 +86,7 @@
 		5B71F57A21DF61D0006D20EF /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				5B71F58721DF672D006D20EF /* New Group */,
 				5B71F58621DF6463006D20EF /* Main */,
 				5B71F57B21DF61DF006D20EF /* Auth */,
 			);
@@ -122,6 +125,43 @@
 			children = (
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		5B71F58721DF672D006D20EF /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		5B71F58821DF6746006D20EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B71F58921DF674E006D20EF /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5B71F58921DF674E006D20EF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5B71F58A21DF675C006D20EF /* New Group */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5B71F58A21DF675C006D20EF /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		5B71F58B21DF6797006D20EF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
