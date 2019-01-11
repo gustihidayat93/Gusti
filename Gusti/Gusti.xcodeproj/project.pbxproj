@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EB44AF60416BF1D680C13DF /* Pods_Gusti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0AD09485433D9312D3136A /* Pods_Gusti.framework */; };
+		5B0D739D21E1FEDA00060C02 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0D739C21E1FEDA00060C02 /* MainViewController.swift */; };
+		5B0D73A321E2016700060C02 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0D73A121E2016700060C02 /* HomeViewController.swift */; };
+		5B0D73A421E2016700060C02 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B0D73A221E2016700060C02 /* HomeViewController.xib */; };
+		5B0D73A721E2018200060C02 /* NewAnimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0D73A521E2018200060C02 /* NewAnimeViewController.swift */; };
+		5B0D73A821E2018200060C02 /* NewAnimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B0D73A621E2018200060C02 /* NewAnimeViewController.xib */; };
+		5B0D73AB21E201A600060C02 /* ListRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0D73A921E201A600060C02 /* ListRequestViewController.swift */; };
+		5B0D73AC21E201A600060C02 /* ListRequestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B0D73AA21E201A600060C02 /* ListRequestViewController.xib */; };
 		5B71F56821DF61BB006D20EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B71F56721DF61BB006D20EF /* AppDelegate.swift */; };
 		5B71F56A21DF61BB006D20EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B71F56921DF61BB006D20EF /* ViewController.swift */; };
 		5B71F56D21DF61BB006D20EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B71F56B21DF61BB006D20EF /* Main.storyboard */; };
@@ -16,9 +24,23 @@
 		5B71F58021DF6294006D20EF /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B71F57E21DF6294006D20EF /* LoginViewController.xib */; };
 		5B71F58421DF645A006D20EF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B71F58221DF645A006D20EF /* RegisterViewController.swift */; };
 		5B71F58521DF645A006D20EF /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B71F58321DF645A006D20EF /* RegisterViewController.xib */; };
+		5B71F58D21E0D809006D20EF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B71F58C21E0D809006D20EF /* GoogleService-Info.plist */; };
+		5BCD465021E88936008BB7BE /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCD464E21E88936008BB7BE /* HomeTableViewCell.swift */; };
+		5BCD465121E88936008BB7BE /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BCD464F21E88936008BB7BE /* HomeTableViewCell.xib */; };
+		5BCD465521E8A467008BB7BE /* DescripsionMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCD465321E8A467008BB7BE /* DescripsionMovieViewController.swift */; };
+		5BCD465621E8A467008BB7BE /* DescripsionMovieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BCD465421E8A467008BB7BE /* DescripsionMovieViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F0AD09485433D9312D3136A /* Pods_Gusti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gusti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F78C5B79E4DDF1926177D68 /* Pods-Gusti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gusti.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gusti/Pods-Gusti.release.xcconfig"; sourceTree = "<group>"; };
+		5B0D739C21E1FEDA00060C02 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5B0D73A121E2016700060C02 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5B0D73A221E2016700060C02 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		5B0D73A521E2018200060C02 /* NewAnimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAnimeViewController.swift; sourceTree = "<group>"; };
+		5B0D73A621E2018200060C02 /* NewAnimeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewAnimeViewController.xib; sourceTree = "<group>"; };
+		5B0D73A921E201A600060C02 /* ListRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRequestViewController.swift; sourceTree = "<group>"; };
+		5B0D73AA21E201A600060C02 /* ListRequestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListRequestViewController.xib; sourceTree = "<group>"; };
 		5B71F56421DF61BB006D20EF /* Gusti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gusti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B71F56721DF61BB006D20EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B71F56921DF61BB006D20EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +52,12 @@
 		5B71F57E21DF6294006D20EF /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		5B71F58221DF645A006D20EF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		5B71F58321DF645A006D20EF /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		5B71F58C21E0D809006D20EF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5BCD464E21E88936008BB7BE /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		5BCD464F21E88936008BB7BE /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		5BCD465321E8A467008BB7BE /* DescripsionMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescripsionMovieViewController.swift; sourceTree = "<group>"; };
+		5BCD465421E8A467008BB7BE /* DescripsionMovieViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DescripsionMovieViewController.xib; sourceTree = "<group>"; };
+		E1B8A5F05094BCE651528A92 /* Pods-Gusti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gusti.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gusti/Pods-Gusti.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +65,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EB44AF60416BF1D680C13DF /* Pods_Gusti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02A910E5B226B910302E8009 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1B8A5F05094BCE651528A92 /* Pods-Gusti.debug.xcconfig */,
+				4F78C5B79E4DDF1926177D68 /* Pods-Gusti.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2E6F118BA6344563F4C5256F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F0AD09485433D9312D3136A /* Pods_Gusti.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B0D739E21E2003700060C02 /* NewAnime */ = {
+			isa = PBXGroup;
+			children = (
+				5B0D73A521E2018200060C02 /* NewAnimeViewController.swift */,
+				5B0D73A621E2018200060C02 /* NewAnimeViewController.xib */,
+			);
+			path = NewAnime;
+			sourceTree = "<group>";
+		};
+		5B0D739F21E2003B00060C02 /*  ListRequest */ = {
+			isa = PBXGroup;
+			children = (
+				5B0D73A921E201A600060C02 /* ListRequestViewController.swift */,
+				5B0D73AA21E201A600060C02 /* ListRequestViewController.xib */,
+			);
+			path = " ListRequest";
+			sourceTree = "<group>";
+		};
+		5B0D73AD21E23DCF00060C02 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				5BCD464E21E88936008BB7BE /* HomeTableViewCell.swift */,
+				5BCD464F21E88936008BB7BE /* HomeTableViewCell.xib */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
 		5B71F55B21DF61BB006D20EF = {
 			isa = PBXGroup;
 			children = (
 				5B71F56621DF61BB006D20EF /* Gusti */,
 				5B71F56521DF61BB006D20EF /* Products */,
+				02A910E5B226B910302E8009 /* Pods */,
+				2E6F118BA6344563F4C5256F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +144,7 @@
 				5B71F56E21DF61BC006D20EF /* Assets.xcassets */,
 				5B71F57021DF61BC006D20EF /* LaunchScreen.storyboard */,
 				5B71F57321DF61BC006D20EF /* Info.plist */,
+				5B71F58C21E0D809006D20EF /* GoogleService-Info.plist */,
 			);
 			path = Gusti;
 			sourceTree = "<group>";
@@ -76,6 +152,7 @@
 		5B71F57921DF61C6006D20EF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5BCD465221E8A361008BB7BE /* New Group */,
 				5B71F58B21DF6797006D20EF /* Extensions */,
 				5B71F58821DF6746006D20EF /* View */,
 				5B71F57A21DF61D0006D20EF /* Module */,
@@ -86,7 +163,7 @@
 		5B71F57A21DF61D0006D20EF /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				5B71F58721DF672D006D20EF /* New Group */,
+				5B71F58721DF672D006D20EF /* DescripsionMovie */,
 				5B71F58621DF6463006D20EF /* Main */,
 				5B71F57B21DF61DF006D20EF /* Auth */,
 			);
@@ -123,20 +200,25 @@
 		5B71F58621DF6463006D20EF /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				5B0D739C21E1FEDA00060C02 /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		5B71F58721DF672D006D20EF /* New Group */ = {
+		5B71F58721DF672D006D20EF /* DescripsionMovie */ = {
 			isa = PBXGroup;
 			children = (
+				5BCD465321E8A467008BB7BE /* DescripsionMovieViewController.swift */,
+				5BCD465421E8A467008BB7BE /* DescripsionMovieViewController.xib */,
 			);
-			path = "New Group";
+			path = DescripsionMovie;
 			sourceTree = "<group>";
 		};
 		5B71F58821DF6746006D20EF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5B0D739F21E2003B00060C02 /*  ListRequest */,
+				5B0D739E21E2003700060C02 /* NewAnime */,
 				5B71F58921DF674E006D20EF /* Home */,
 			);
 			path = View;
@@ -145,16 +227,11 @@
 		5B71F58921DF674E006D20EF /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				5B71F58A21DF675C006D20EF /* New Group */,
+				5B0D73AD21E23DCF00060C02 /* SubViews */,
+				5B0D73A121E2016700060C02 /* HomeViewController.swift */,
+				5B0D73A221E2016700060C02 /* HomeViewController.xib */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		5B71F58A21DF675C006D20EF /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 		5B71F58B21DF6797006D20EF /* Extensions */ = {
@@ -164,6 +241,13 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		5BCD465221E8A361008BB7BE /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -171,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B71F57621DF61BC006D20EF /* Build configuration list for PBXNativeTarget "Gusti" */;
 			buildPhases = (
+				AD8638579D937D37BDBCF1BD /* [CP] Check Pods Manifest.lock */,
 				5B71F56021DF61BB006D20EF /* Sources */,
 				5B71F56121DF61BB006D20EF /* Frameworks */,
 				5B71F56221DF61BB006D20EF /* Resources */,
+				947E1F7941DBA8CC6B979657 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -226,11 +312,58 @@
 				5B71F58521DF645A006D20EF /* RegisterViewController.xib in Resources */,
 				5B71F57221DF61BC006D20EF /* LaunchScreen.storyboard in Resources */,
 				5B71F56F21DF61BC006D20EF /* Assets.xcassets in Resources */,
+				5B0D73AC21E201A600060C02 /* ListRequestViewController.xib in Resources */,
 				5B71F56D21DF61BB006D20EF /* Main.storyboard in Resources */,
+				5B0D73A421E2016700060C02 /* HomeViewController.xib in Resources */,
+				5B0D73A821E2018200060C02 /* NewAnimeViewController.xib in Resources */,
+				5BCD465121E88936008BB7BE /* HomeTableViewCell.xib in Resources */,
+				5B71F58D21E0D809006D20EF /* GoogleService-Info.plist in Resources */,
+				5BCD465621E8A467008BB7BE /* DescripsionMovieViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		947E1F7941DBA8CC6B979657 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Gusti/Pods-Gusti-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gusti/Pods-Gusti-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD8638579D937D37BDBCF1BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gusti-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5B71F56021DF61BB006D20EF /* Sources */ = {
@@ -240,7 +373,13 @@
 				5B71F57F21DF6294006D20EF /* LoginViewController.swift in Sources */,
 				5B71F56A21DF61BB006D20EF /* ViewController.swift in Sources */,
 				5B71F56821DF61BB006D20EF /* AppDelegate.swift in Sources */,
+				5BCD465521E8A467008BB7BE /* DescripsionMovieViewController.swift in Sources */,
 				5B71F58421DF645A006D20EF /* RegisterViewController.swift in Sources */,
+				5B0D73A721E2018200060C02 /* NewAnimeViewController.swift in Sources */,
+				5B0D739D21E1FEDA00060C02 /* MainViewController.swift in Sources */,
+				5BCD465021E88936008BB7BE /* HomeTableViewCell.swift in Sources */,
+				5B0D73AB21E201A600060C02 /* ListRequestViewController.swift in Sources */,
+				5B0D73A321E2016700060C02 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +521,7 @@
 		};
 		5B71F57721DF61BC006D20EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1B8A5F05094BCE651528A92 /* Pods-Gusti.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -399,6 +539,7 @@
 		};
 		5B71F57821DF61BC006D20EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F78C5B79E4DDF1926177D68 /* Pods-Gusti.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
