@@ -1,0 +1,6 @@
+framework module Pods_Gusti {
+  umbrella header "Pods-Gusti-umbrella.h"
+
+  export *
+  module * { export * }
+}
