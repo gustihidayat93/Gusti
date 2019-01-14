@@ -15,6 +15,8 @@
 		5B0D73A821E2018200060C02 /* NewAnimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B0D73A621E2018200060C02 /* NewAnimeViewController.xib */; };
 		5B0D73AB21E201A600060C02 /* ListRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0D73A921E201A600060C02 /* ListRequestViewController.swift */; };
 		5B0D73AC21E201A600060C02 /* ListRequestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B0D73AA21E201A600060C02 /* ListRequestViewController.xib */; };
+		5B29C73421E9A2BD00DF6B42 /* PopularBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B29C73221E9A2BD00DF6B42 /* PopularBase.swift */; };
+		5B29C73521E9A2BD00DF6B42 /* PopularResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B29C73321E9A2BD00DF6B42 /* PopularResult.swift */; };
 		5B71F56821DF61BB006D20EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B71F56721DF61BB006D20EF /* AppDelegate.swift */; };
 		5B71F56A21DF61BB006D20EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B71F56921DF61BB006D20EF /* ViewController.swift */; };
 		5B71F56D21DF61BB006D20EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B71F56B21DF61BB006D20EF /* Main.storyboard */; };
@@ -41,6 +43,8 @@
 		5B0D73A621E2018200060C02 /* NewAnimeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewAnimeViewController.xib; sourceTree = "<group>"; };
 		5B0D73A921E201A600060C02 /* ListRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRequestViewController.swift; sourceTree = "<group>"; };
 		5B0D73AA21E201A600060C02 /* ListRequestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListRequestViewController.xib; sourceTree = "<group>"; };
+		5B29C73221E9A2BD00DF6B42 /* PopularBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularBase.swift; sourceTree = "<group>"; };
+		5B29C73321E9A2BD00DF6B42 /* PopularResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularResult.swift; sourceTree = "<group>"; };
 		5B71F56421DF61BB006D20EF /* Gusti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gusti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B71F56721DF61BB006D20EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B71F56921DF61BB006D20EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +120,15 @@
 			path = SubViews;
 			sourceTree = "<group>";
 		};
+		5B29C73121E9A2BD00DF6B42 /* PopularModel */ = {
+			isa = PBXGroup;
+			children = (
+				5B29C73221E9A2BD00DF6B42 /* PopularBase.swift */,
+				5B29C73321E9A2BD00DF6B42 /* PopularResult.swift */,
+			);
+			path = PopularModel;
+			sourceTree = "<group>";
+		};
 		5B71F55B21DF61BB006D20EF = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +176,7 @@
 		5B71F57A21DF61D0006D20EF /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				5B29C73121E9A2BD00DF6B42 /* PopularModel */,
 				5B71F58721DF672D006D20EF /* DescripsionMovie */,
 				5B71F58621DF6463006D20EF /* Main */,
 				5B71F57B21DF61DF006D20EF /* Auth */,
@@ -332,13 +346,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Gusti/Pods-Gusti-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -374,7 +386,9 @@
 				5B71F56A21DF61BB006D20EF /* ViewController.swift in Sources */,
 				5B71F56821DF61BB006D20EF /* AppDelegate.swift in Sources */,
 				5BCD465521E8A467008BB7BE /* DescripsionMovieViewController.swift in Sources */,
+				5B29C73421E9A2BD00DF6B42 /* PopularBase.swift in Sources */,
 				5B71F58421DF645A006D20EF /* RegisterViewController.swift in Sources */,
+				5B29C73521E9A2BD00DF6B42 /* PopularResult.swift in Sources */,
 				5B0D73A721E2018200060C02 /* NewAnimeViewController.swift in Sources */,
 				5B0D739D21E1FEDA00060C02 /* MainViewController.swift in Sources */,
 				5BCD465021E88936008BB7BE /* HomeTableViewCell.swift in Sources */,

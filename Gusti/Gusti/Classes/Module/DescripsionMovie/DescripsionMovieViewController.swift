@@ -18,7 +18,8 @@ class DescripsionMovieViewController: UIViewController {
     @IBOutlet weak var idMovie: UILabel!
     @IBOutlet weak var typeMovie: UILabel!
     
-    var 
+    var movie : PopularResult?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
